@@ -44,6 +44,8 @@ fun main(args: Array<String>) {
         } else {
             error("Invalid flag $arg")
         }
+
+        index++
     }
 
     if (showDebugLogs) {
