@@ -7,53 +7,17 @@
     <cargoProject FILE="$PROJECT_DIR$/glass-rust/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3be1dbc-3e8c-44ad-b068-5ba8eadd0805" name="Changes" comment="Stuff">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_github_kawamuray_wasmtime_wasmtime_java_0_19_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_annotations_23_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_reflect_1_9_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_9_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_8_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_8_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_test_1_9_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_test_junit5_1_9_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_core_jvm_1_7_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_api_5_6_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_engine_5_6_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_commons_1_6_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_engine_1_6_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/glass-kotlin.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/glass-kotlin.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/glass-kotlin.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/glass-kotlin/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="f3be1dbc-3e8c-44ad-b068-5ba8eadd0805" name="Changes" comment="Logging rust">
+      <change afterPath="$PROJECT_DIR$/glass-kotlin/src/main/kotlin/com/thedevjade/glass/wasm/FnExtern.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/glass-kotlin/src/main/kotlin/com/thedevjade/glass/wasm/FnValType.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/glass-kotlin/src/main/kotlin/com/thedevjade/glass/wasm/WasmContext.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/glass-rust/src/externs/mod.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/glass-rust/src/logging/mod.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/glass-kotlin/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/glass-kotlin/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/glass-kotlin/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/glass-kotlin/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/glass-kotlin/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/glass-kotlin/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/glass-kotlin/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/glass-kotlin/gradlew.bat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/glass-kotlin/src/main/kotlin/com/thedevjade/glass/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/glass-kotlin/src/main/kotlin/com/thedevjade/glass/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/glass-kotlin/src/main/kotlin/com/thedevjade/glass/WebAssembly.kt" beforeDir="false" afterPath="$PROJECT_DIR$/glass-kotlin/src/main/kotlin/com/thedevjade/glass/wasm/WebAssembly.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/glass-kotlin/src/main/kotlin/com/thedevjade/glass/wasm/Bindings.kt" beforeDir="false" afterPath="$PROJECT_DIR$/glass-kotlin/src/main/kotlin/com/thedevjade/glass/wasm/Bindings.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/glass-launcher/.gradle/8.4/checksums/checksums.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/glass-launcher/.gradle/8.4/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/glass-launcher/.gradle/8.4/dependencies-accessors/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/glass-launcher/.gradle/8.4/executionHistory/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/glass-launcher/.gradle/8.4/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/glass-launcher/.gradle/8.4/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/glass-launcher/.gradle/8.4/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/glass-launcher/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/glass-launcher/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/glass-launcher/.gradle/vcs-1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/glass-launcher/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/glass-launcher/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/glass-launcher/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/glass-launcher/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/glass-rust/README_WEB.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/glass-kotlin/src/main/kotlin/com/thedevjade/glass/wasm/WebAssembly.kt" beforeDir="false" afterPath="$PROJECT_DIR$/glass-kotlin/src/main/kotlin/com/thedevjade/glass/wasm/WebAssembly.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/glass-rust/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/glass-rust/Cargo.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/glass-rust/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/glass-rust/src/lib.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,8 +51,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Class" />
         <option value="Kotlin Object" />
+        <option value="Rust File" />
+        <option value="Class" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -157,6 +123,9 @@
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="2XutyKuM9Jea6u1xnX8MbOHsOd4" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -243,6 +212,7 @@
     <configuration name="MainKt " type="JetRunConfigurationType" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.thedevjade.glass.MainKt" />
       <module name="glass-kotlin.main" />
+      <option name="PROGRAM_PARAMETERS" value="-d" />
       <shortenClasspath name="NONE" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/glass-kotlin" />
       <method v="2">
@@ -250,7 +220,7 @@
       </method>
     </configuration>
     <configuration name="Build glass-rust" type="WasmPackCommandRunConfiguration" factoryName="wasm-pack">
-      <option name="command" value="build --target web " />
+      <option name="command" value="build --target web --release" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$/glass-rust" />
       <option name="emulateTerminal" value="false" />
       <method v="2">
@@ -316,7 +286,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699604497794</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Stuff">
+      <created>1699733890802</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1699733890802</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -337,7 +314,8 @@
     <MESSAGE value="This gradle configuration is amazing :D" />
     <MESSAGE value="Update Cargo.toml" />
     <MESSAGE value="Stuff" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stuff" />
+    <MESSAGE value="Logging rust" />
+    <option name="LAST_COMMIT_MESSAGE" value="Logging rust" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />

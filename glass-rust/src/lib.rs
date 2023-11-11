@@ -1,13 +1,13 @@
-#[link(wasm_import_module = "kotlin_module")]
-extern "C" {
-    fn method1();
-    fn method2(str: *const u8, str_length: usize);
-}
+#![allow(dead_code)]
+
+use crate::logging::print_str;
+
+pub mod externs;
+
+// ** Public Modules **
+pub mod logging;
 
 #[no_mangle]
-pub unsafe extern "C" fn run() {
-    method1(); // Call the Kotlin function
-
-    const STR: &str = "Hello, World";
-    method2(STR.as_ptr(), STR.len());
+pub extern "C" fn run() {
+    print_str("Hello, World");
 }

@@ -52,6 +52,8 @@ fun main(args: Array<String>) {
         rootLogger.handlers.forEach { h -> h.level = Level.ALL }
     }
 
+    println("Initializing..")
+
     val file = File(wasmFilePath)
     WebAssembly.runEnvironment(file, Bindings)
 }
