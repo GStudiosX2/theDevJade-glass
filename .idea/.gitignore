@@ -1,0 +1,10 @@
+libaries/**
+modules/**
+compiler.xml
+git_toolbox_prj.xml
+gradle.xml
+jarRepositories.xml
+kotlinc.xml
+modules.xml
+workspace.xml
+vcs.xml
