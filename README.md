@@ -1,3 +1,7 @@
+# This fork is no longer maintained i might help jade
+
+# on the original project though.
+
 # GLASS: Gateway Language Access to Spigot Software.
 
 ## Eventually this will support
