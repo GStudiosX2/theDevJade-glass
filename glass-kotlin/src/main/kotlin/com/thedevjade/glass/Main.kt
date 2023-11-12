@@ -37,7 +37,7 @@ fun main(args: Array<String>) {
 
                 strFp.deleteCharAt(strFp.length)
             } else {
-                strFp.append(args[index + 1])
+                strFp.append(args[index])
             }
 
             wasmFilePath = strFp.toString()
